@@ -46,6 +46,14 @@ else
 			  rescue
 			end
 		end
+		## kill the bot
+		if event.content ==="!kill"
+			begin
+			  	event.respond "ok, bye :)"
+			  	exit(0)
+			  rescue
+			end
+		end
 	  
 	end
 	
